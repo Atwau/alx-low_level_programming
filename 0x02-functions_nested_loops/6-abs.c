@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * int_abs - to print absolute numbers, works for negatives
- * @i: takes in numbers
- * Return: returns an integerr
+ * int_abs - prints absolute numbers
+ * Return: returns 0 for success
+ * @i: the absolute number
  */
 
 int int_abs(int i)
@@ -12,6 +12,4 @@ int int_abs(int i)
 	{
 		i = i * -1;
 	}
-
-	return (i);
 }
